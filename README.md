@@ -1,2 +1,2 @@
 # Python Basics
-This is to share some learning stuff
+This is to share some learning
