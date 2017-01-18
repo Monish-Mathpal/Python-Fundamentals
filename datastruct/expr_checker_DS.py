@@ -1,3 +1,4 @@
+'''Using to solve the problem of checking whether the open or close brackets are balanced or not '''
 import Stack_DS as sd
 
 def par(expr):
