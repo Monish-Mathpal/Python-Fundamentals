@@ -90,28 +90,5 @@ def pdf_read(pdfName, pagenum=0):
 
 
 
-# print(mbs_gscc_extract(pdf_read("C:\\Users\\XBBNJTW\\Desktop\\Reports\\RCDispatcher9571.pdf")))
-# print(mbs_gscc_extract(pdf_read("C:\\Users\\XBBNJTW\\Desktop\\Reports\\MBS Clearing Fund Req and Funds Deposit 111517.pdf")))
-# print(pdf_read("Y:\\Clearing  By Counterparty Report_20171117100654_264635107_39775366.pdf"))
-
-# mbsd_collat_extract = mbs_gscc_extract(pdf_read("C:\\Users\\XBBNJTW\\Desktop\\Reports\\MBS Clearing Fund Req and Funds Deposit 111617.pdf"))
-# print(nscc_extract(pdf_read("C:\\Users\\XBBNJTW\\Desktop\\Reports\\NSCC Daily Margin Statement 011118.pdf")))
-#NSCC Daily Margin Statement 111717.pdf
-# mbsd_dict = defaultdict(list)
-# #
-# for key, value in mbsd_collat_extract:
-#     mbsd_dict[key].append(value)
-#
-# print(mbsd_dict['Total Required Fund Deposit'][0], mbsd_dict['Cash'][0],
-#                              mbsd_dict['Your minimum required Cash deposit is'][0], mbsd_dict['Securities'][0],
-#         mbsd_dict['Your minimum required Cash/Treasury deposit is'][0])
-
-# #
-if __name__ == "__main__":
-    pdf_read()
-    frb_extract()
-    nscc_extract()
-    mbs_gscc_extract()
-    parsing_data()
 
 
