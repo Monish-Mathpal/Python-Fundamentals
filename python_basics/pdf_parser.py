@@ -7,7 +7,6 @@ Created on Mon May  8 21:22:20 2017
 import PyPDF2
 import re
 from toolz import curry
-from RepProcess.pdf_processs import pdf_read, parsing_data
 from toolz import curry, compose
 import itertools as it
 from functools import partial
